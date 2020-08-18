@@ -1,0 +1,23 @@
+1. determine closure - in borel-set-methods
+	should method for explicit-finite-interesection be the same as it is for
+	explicit-finite-union
+
+2. touchp - right but I could change it's name
+
+3. using same-set-p instead of eq - waste of time? or not?, see set-union-methods
+- difference between eq, eql, etc.
+	methinks the answer was, just use eq or did I even ask the question
+
+4 can I assume that if your set is an explicit-finite-intersection that
+	it can't be reduced any further?  and how about it for countable-intersections
+	yes, assume this is true -- the idiot be hanged
+
+5. example, intersection between an interval and a countable-union
+	should I be just using contains-set-p or should I also be checking for overlappage
+	no 
+
+6. in countable-intersection and EFIs
+ does contain-set-p (or not) refer to the actually contained sets or what it represents
+	refers to the actual sets
+ and disjointness?
+	the mathematic truth
